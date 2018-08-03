@@ -80,3 +80,9 @@ $ python main.py
 for python3
 
 $ python3 main.py
+
+
+Receiving Emails
+When receiving an email for the first time, you might get the notification from Google.
+
+By default, Google blocks apps from using SMTP without permissions. We can solve this by clicking on the allow "less secure apps" link and toggle the feature on. The next object detected will send an email.
