@@ -1,15 +1,15 @@
-## Smart_Security_Camera
+# Smart_Security_Camera
 IoT Raspberry Pi security camera running OpenCV for object detection. The camera will send an email with an image of any objects it detects.
 
-# Step 1: This project uses openCV to detect objects in the video feed. You can install openCV by using the following tutorial.
+## Step 1: This project uses openCV to detect objects in the video feed. You can install openCV by using the following tutorial.
 
   https://github.com/recroviral/picam
 
-# Step 2: Clone the repo:
+## Step 2: Clone the repo:
 
   $ git clone https://github.com/HackerShackOfficial/Smart-Security-Camera
 
-# Step 3: Next, Nevigate to the repository directory
+## Step 3: Next, Nevigate to the repository directory
 
   $ cd Smart-Security-Camera
 
@@ -23,7 +23,7 @@ for python3
 
   $ pip3 install -r requirement.txt
 
-# Step 4: To get emails when objects are detected, you'll need to make a couple modifications to the mail.py file.
+## Step 4: To get emails when objects are detected, you'll need to make a couple modifications to the mail.py file.
 
 Open mail.py with vim 
 
@@ -31,10 +31,10 @@ Open mail.py with vim
 
 then press i to edit. Scroll down to the following section
 
-# Email you want to send the update from (only works with gmail)
+### Email you want to send the update from (only works with gmail)
 fromEmail = 'myemail@gmail.com'
 fromEmailPassword = 'password1234'
-# Email you want to send the update to
+### Email you want to send the update to
 toEmail = 'anotheremail@gmail.com'
 
 and replace with your own email/credentials. The mail.py file logs into a gmail SMTP server and sends an email with an image of the object detected by the security camera.
@@ -58,7 +58,7 @@ facial_recognition_model.xml
 fullbody_recognition_model.xml
 upperbody_recognition_model.xml
 
-# for python3 
+### for python3 
 
 you have to make some changes in import library in mail.py
 
@@ -74,7 +74,7 @@ print "Sending email..."     change to     print ("Sending Email")
 
 or you can replase the mail.py and main.py given into this repository
 
-# Run the Program
+## Step 5: Run the Program
 
 for python2.7
 
@@ -85,7 +85,7 @@ for python3
   $ python3 main.py
 
 
-# Receiving Emails
+## Receiving Emails
 
 When receiving an email for the first time, you might get the notification from Google.
 
