@@ -7,25 +7,29 @@ https://github.com/recroviral/picam
 
 Step 2: Clone the repo:
 
-git clone https://github.com/HackerShackOfficial/Smart-Security-Camera
+$ git clone https://github.com/HackerShackOfficial/Smart-Security-Camera
 
 Step 3: Next, Nevigate to the repository directory
 
-cd Smart-Security-Camera
+$ cd Smart-Security-Camera
 
 and install the dependancy for the project
 
 for python2.7
 
-pip install -r requirement.txt
+$ pip install -r requirement.txt
 
 for python3
 
-pip3 install -r requirement.txt
+$ pip3 install -r requirement.txt
 
 Step 4: To get emails when objects are detected, you'll need to make a couple modifications to the mail.py file.
 
-Open mail.py with vim vim mail.py , then press i to edit. Scroll down to the following section
+Open mail.py with vim 
+
+$ vim mail.py 
+
+then press i to edit. Scroll down to the following section
 
 # Email you want to send the update from (only works with gmail)
 fromEmail = 'myemail@gmail.com'
@@ -70,8 +74,8 @@ Run the Program
 
 for python2.7
 
-python main.py
+$ python main.py
 
 for python3
 
-python3 main.py
+$ python3 main.py
