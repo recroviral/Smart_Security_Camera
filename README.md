@@ -1,7 +1,7 @@
-# Smart_Security_Camera
+## Smart_Security_Camera
 IoT Raspberry Pi security camera running OpenCV for object detection. The camera will send an email with an image of any objects it detects.
 
-# step 1: This project uses openCV to detect objects in the video feed. You can install openCV by using the following tutorial.
+# Step 1: This project uses openCV to detect objects in the video feed. You can install openCV by using the following tutorial.
 
   https://github.com/recroviral/picam
 
