@@ -58,11 +58,12 @@ upperbody_recognition_model.xml
 for python3 you have to make some changes in import library in mail.py
 
 from email.mime.multipart import MIMEMultipart    #from email.MIMEMultipart import MIMEMultipart
+
 from email.mime.text import MIMEText              #from email.MIMEtext import MIMEText
+
 from email.mime.image import MIMEImage            ##from email.MIMEImage import MIMEImage
 
-and in main.py 
-make the bracket to each print statement
+and in main.py make the bracket to each print statement
 
 For Example,
 
